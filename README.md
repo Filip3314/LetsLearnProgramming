@@ -2,7 +2,7 @@
 
 This is your one stop shop to learn about programming FRC robotics in C++. 
 
-### Javaa
+### Java
  - **The Basics**
      - [Let’s Say Hello!](Cpp/nonrobot/HelloWorld.md)
      - [Let's Learn Variables!](Cpp/nonrobot/Math.md)
