@@ -2,7 +2,7 @@
 
 This is your one stop shop to learn about programming FRC robotics in C++. 
 
-### C++
+### Javaa
  - **The Basics**
      - [Let’s Say Hello!](Cpp/nonrobot/HelloWorld.md)
      - [Let's Learn Variables!](Cpp/nonrobot/Math.md)
@@ -19,14 +19,9 @@ This is your one stop shop to learn about programming FRC robotics in C++.
      - [Let's Learn PID!](Cpp/robot/LLpid.md)
      - [Let's Reorganize!](Cpp/robot/LLreorg.md)
  
- 
-### Other Things
-  - [About](whodis.md)
-  - [FRC 1296](http://www.rockwallrobotics.com)
-  - [Words of Wisdom](QuoteList.md)
 
 ### Resources
-* FRC 1296 Code: [2018](https://github.com/FRC1296/RhsRobot2018) || [2017](https://github.com/FRC1296/RhsRobot2017) 
+* FRC 1296 Code: [2018](https://github.com/Team3314/2018-Code) || [2017](https://github.com/Team3314/2017-code) 
 * [Chief Delphi](https://www.chiefdelphi.com/forums/portal.php)
 * [Cross The Road Electronics](http://www.ctr-electronics.com/)
     * [CTRE TalonSRX](http://www.ctr-electronics.com/talon-srx.html)
