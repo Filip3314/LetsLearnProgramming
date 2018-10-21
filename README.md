@@ -5,19 +5,21 @@ This is your one stop shop to learn about programming FRC robotics in C++.
 ### Java
  - **The Basics**
      - [Let’s Say Hello!](Java/nonrobot/HelloWorld.md)
-     - [Let's Learn Variables!](Java/nonrobot/Math.md)
-     - [Let's Learn More Variables!](Java/nonrobot/LLVars2.md)
+     - [Let's Learn Variables!](Java/nonrobot/Variables.md)
+     - [Let's Learn More Variables!](Java/nonrobot/MoreVariables.md)
      - [Let's Learn Functions!](Java/nonrobot/Functions.md)
      - [Let's Learn unConditionally!](Java/nonrobot/Conditionals.md)
      - [Let's Loop de Loop!](Java/nonrobot/Loops.md)
      - [Let's Make Objects!](Java/nonrobot/Objects.md)
 
  - **Robots**
-     - [Let's Learn Tank Drive!](Java/robot/LLTank.md)
-     - [Let's Climb!](Java/robot/LLClimb.md)
-     - [Let's Get Some Gears!](Java/robot/LLGears.md)
-     - [Let's Learn PID!](Java/robot/LLpid.md)
-     - [Let's Reorganize!](Java/robot/LLreorg.md)
+     - [Let's Learn Tank Drive!](Java/robot/Tank.md)
+     - [Let's Climb!](Java/robot/Climb.md)
+     - [Let's Get Some Gears!](Java/robot/Gears.md)
+     - [Let's Learn PID!](Java/robot/PID.md)
+     - [Let's Reorganize!](Java/robot/Reorg.md)
+
+ - **Git**
  
 
 ### Resources
