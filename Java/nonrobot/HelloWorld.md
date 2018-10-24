@@ -2,7 +2,7 @@
 
 **Objectives**: Learn the basics of code and write a hello world program.
 
-**Starting Point**: [Code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/HelloWorld.java)
+**Starting Point**: [Code](HelloWorld.java)
 
 **Process**: 
 
