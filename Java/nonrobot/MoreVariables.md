@@ -1,7 +1,7 @@
 
 ## Let's Learn More Variables!
 
-[<- Previously: Let's Learn Variables!](Math.md)
+[<- Previously: Let's Learn Variables!](Variables.md)
 
 ----------------------------------------------------------------------------------------
 
@@ -15,7 +15,7 @@
 
 Open the starter code, it's pretty short and I bet you know roughly was it does, but I want to clarify the line with ```printf```. 
 
-```cpp
+```Java
 printf("Our team number is %d", team_number);
 ```
 
@@ -37,7 +37,7 @@ What if we wanted to print multiple variables in one line? We would add more for
 Lets modify our code so it prints "Our team number is %d and we have %d students". Lets also add a variable that will hold the number of students, I'll call mine ```num_kids``` but you can call yours whatever you'd like. Lastly, lets tell the computer that the second format specifier should print the value of ```num_kids```.
 Our main body should look like this:
 
-```cpp
+```Java
 	int team_number = 1296;
 	int num_kids = 24; 
  
@@ -50,12 +50,12 @@ Change your printf arguement so that ```num_kids``` is before ```team_number``` 
 
 2.  Now lets try printing a _double_. After we print out our team number, lets make a double. I'm going to call mine pie and pick a value to assign to it. You can pick whatever name and value you want, just make sure its a decimal:
 
-```cpp
+```Java
 	double pie = 3.1415;
 ```
 Using ```printf()```, lets print out our _double_:
 
-```cpp
+```Java
 	printf("The value of pie is %d",pie);
 ```
 Compile and run your code - did it behave how you expected? 

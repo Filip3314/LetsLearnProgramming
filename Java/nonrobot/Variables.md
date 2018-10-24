@@ -57,7 +57,7 @@ So now that we broke down how to solve that problem generically, now lets try to
 
 In this code, we see the header section like last time, as well as the main and the main body. However, in this code we see something new:
 
-``` cpp
+``` Java
 int seconds;
 int hour; 
 int min; 
@@ -75,7 +75,7 @@ The following lines are creating more *integer* variables with different names.
 
 In the line ``` seconds = 3661; ```, we are *assigning a value* to ```seconds``` - in this case we are assigning the value of 3661. So now, ```seconds``` equals 3661 until we assign it a new value. When we assign values to variables we always put the variables on the left side of the equal sign, and the new value on the right side. To quickly demonstrate:
 
-``` cpp
+``` Java
 int a;
 int b;
 
