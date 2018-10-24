@@ -10,8 +10,6 @@
 2. In VSCode, click File>Open Folder. Then select the folder that you just created.
 3. Create a new file in VSCode and name it HelloWorld.java.
 4. Copy paste the code from the link into your file.
-5. First we have:
-    ``` 
 6. Next we have:
     
 	    ``` public static void main(String[] args) ```
