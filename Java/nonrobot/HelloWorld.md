@@ -10,13 +10,13 @@
 2. In VSCode, click File>Open Folder. Then select the folder that you just created.
 3. Create a new file in VSCode and name it HelloWorld.java.
 4. Copy paste the code from the link into your file.
-6. Next we have:
+5. First we have:
     
 	    ``` public static void main(String[] args) ```
   
         This is the starting square for the program. Just like monopoly always starts at “GO”, the program always starts at main.  After main we see curly open and close brackets “{ }” on different lines. Between these brackets is the **method body**. This is because they are in the brackets that come after the name “main”.
 
-7. Inside the **main method**, we’re going to write the following line:
+6. Inside the **main method**, we’re going to write the following line:
 
 	``` System.out.print(); ```
   
@@ -24,7 +24,7 @@
 
     ``` System.out.print(“Mihir is a meme"); ```
 
-8. Now that we wrote our first code, lets see if it works! Above your main method, there should be a run button. Press it!
+7. Now that we wrote our first code, lets see if it works! Above your main method, there should be a run button. Press it!
 
     If everything went well, the box beneath the code will display the text you wrote. If it didn’t go well, you’ll see some error messages. Double check that you included a semicolon “;” at the end of your statement, that you spelled and capitalized System.out.print correctly, that you are using double quotes inside the parenthesis, and that you have both parenthesis. Ask for help if you can’t figure out the errors. 
     
