@@ -11,10 +11,9 @@
 3. Create a new file in VSCode and name it HelloWorld.java.
 4. Copy paste the code from the link into your file.
 5. First we have:
-    
-	    ``` public static void main(String[] args) ```
-  
-        This is the starting square for the program. Just like monopoly always starts at “GO”, the program always starts at main.  After main we see curly open and close brackets “{ }” on different lines. Between these brackets is the **method body**. This is because they are in the brackets that come after the name “main”.
+         ``` public static void main(String[] args) ```
+	    
+         This is the starting square for the program. Just like monopoly always starts at “GO”, the program always starts at main.  After main we see curly open and close brackets “{ }” on different lines. Between these brackets is the **method body**. This is because they are in the brackets that come after the name “main”.
 
 6. Inside the **main method**, we’re going to write the following line:
 
