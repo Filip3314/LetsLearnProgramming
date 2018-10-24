@@ -1,6 +1,6 @@
 ## Let's Learn Programming
 
-This is your one stop shop to learn about programming FRC robotics in C++. 
+This is your one stop shop to learn about programming FRC robotics in Java. 
 
 ### Java
  - **The Basics**
