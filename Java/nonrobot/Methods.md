@@ -1,4 +1,4 @@
-## Let's Learn methods!
+## Let's Learn Methods!
 
 [<- Previously: Let's Learn More Variables!](MoreVariables.md)
 
@@ -92,7 +92,7 @@ So lets practice with methods some more.
 Lets open up [this code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/SquareCircle.java) and solve the following problem:
 Compute the difference in area between a square and a circle of the same diameter. Our method will take in a diameter and return the difference in area. For this practice, we only need to fill in the method body.
 
-![Image](/Images/circle.PNG)
+![Image](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/Images/circle.PNG)
 
 ----------------------------------------------------------------------------------------
 
