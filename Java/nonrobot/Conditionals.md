@@ -26,15 +26,15 @@ Hopefully you answered that the second and third statements are false. In progra
 * 5 == 5 (we use double equals when asking if something is equal to)
 * 12 != 96 (12 is not equal to 96)
 
-We use these _statements_ when we write _if statements_. 
+These are called *boolean expressions*. A *boolean* is a variable that has two possible values, true or false. When we evaluate these expressions, we get either true or false. We use these _expressions_ when we write _if statements_. 
 
-Look at [this example](https://ideone.com/RufPT1).
+Look at [this example](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Conditionals1.java).
 
 We have `if(x > 5)` which is our if statement. It is followed by an open curly brace `{` with some code and a closed curly brace `}`. This is called the _if body_. The code in the _if body_ only runs when the statement inside the `if()` is true. 
 
 What will our code print? What if we change the value of x to 3? 
 
-Now lets look at [this code](https://ideone.com/YxJtzG) and run it. Change a and b so they are equal and run it.
+Now lets look at [this code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Conditionals2.java) and run it. Change a and b so they are equal and run it.
 
 Seems fishy, right? Lets fix it with an _else block_. 
 
@@ -46,7 +46,7 @@ else{
 }
 ```
 
-Move the last printf statement so that we print it in the else block. Run your code. Change the values of a and b and run your code again. Does it work?
+Move the last println statement so that we print it in the else block. Run your code. Change the values of a and b and run your code again. Does it work?
 
 How does the else block work? When we have an if statement, the computer only runs the code inside the if block if the statement is true. If there is an else block attached to the end of the if statement, the computer will run the else block if the statement is false.
 
@@ -55,15 +55,15 @@ We can also make an _else if statement_ which is like an else and an if statemen
 ```
 if(temperature > 90)
 {
-    printf("Its really hot out!");
+    println("Its really hot out!");
 }
 else if(temperature > 50)
 {
-    printf("Its nice outside!");
+    println("Its nice outside!");
 }
 else
 {
-    printf("Its cold outside!");
+    println("Its cold outside!");
 }
 ``` 
 What do you think it prints if the temperature is 99? 
@@ -106,7 +106,7 @@ else if(x > 3)
 }
 ```
 
-[Lets Practice!](https://ideone.com/xQ5m4k) 
+[Lets Practice!](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Conditionals3.java)
 
 * What will this code print when foo = 6 and bar = 7?
 * What about foo = 4, bar = 2?
@@ -114,31 +114,31 @@ else if(x > 3)
 
 Change the values of foo and bar and see if you're correct!
 
-Now [write your own code](https://ideone.com/qpt6fA). Using the template, write a _function_ that returns whichever number is larger and return 0 if the numbers are equal. 
+Now [write your own code](https://ideone.com/qpt6fA). Using the template, write a _method_ that returns whichever number is larger and return 0 if the numbers are equal. 
 
 ------------------------------------------------------------------------------
 
 ### And Or
 
-Katie has the final say on what music can play at the bunker, her rules are:
-_If it is clean and it is on spotify, then she will add it to the bunker playlist._
+Dituri and Jim have the final say on what music you can play on the bus, their rules are:
+_If nigga isn't in the lyrics and they're not trying to sleep, you can play it_
 
 How could we write that as code? We could do:
 ```
 if(song is clean)
 {
-    if(song is on spotify)
+    if(they're not trying to sleep)
     {
-        song is added to playlist
+        you can play the song
     }
 } 
 ```
 
 A faster way to write it would be:
 ```
-if(song is clean && song is on spotify)
+if(song is clean && they're not trying to sleep)
 {
-    song is added to playlist
+    you can play the song
 } 
 ```
 
@@ -151,15 +151,16 @@ The `&&` means AND. x AND y only returns true if and only if x is true and y is 
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
+1 = true, 0 = false
 
-FMJ has rules about when you have to wear camo:
-_If it is a competition or it is an outreach event, you must wear your camo._
+3314 has rules about when you have to wear your team shirt:
+_If it is a competition or it is an outreach event, you must wear your team shirt._
 
 We write this as
 ```
 if(competition || outreach)
 {
-    wear your orange camo
+    wear your team shirt
 }
 ```
 
@@ -189,23 +190,23 @@ The `!` is NOT. NOT x returns true when x is false.
 | 0 | 1 |
 | 1 | 0 |
 
-Lets practice with AND, OR, and NOT with [this code](https://ideone.com/8AC4tg).
+Lets practice with AND, OR, and NOT with [this code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Conditionals4.java).
 Finish my code to correctly identify a super human and if they are a hero or villian. 
 
 ----------------------------------------------------------------------------------------
 
-As a group, let’s write a function that determines if the given year is a leap year with these rules:
+Let’s try to write a file from scratch that determines if the given year is a leap year with these rules:
 There is a leap year every year whose number is perfectly divisible by four - except for years which are both divisible by 100 and not divisible by 400. The second part of the rule affects century years. For example; the century years 1600 and 2000 are leap years, but the century years 1700, 1800, and 1900 are not.
 
-Our function will print “[year] is a leap year” or “[year] is not a leap year”
+Our method will print “[year] is a leap year” or “[year] is not a leap year”
 
 ----------------------------------------------------------------------------------------
 
 ### Who gets into Stanford?
 
-Everyone knows that there are only 3 criteria that are used to get into Stanford: GPA, FRC, and Family Tree. You can get into Stanford if you have at least a 3.95 GPA (on a 4.0 scale) but if you are an FRC student, you only need a 3.3. However, if you are related to Darth Vader - all bets are off and you cannot get in! Write a function that returns 1 if a student would get in and a 0 if the student would not get in. The function will take in three parameters: GPA, FRC student (1 or 0), and relation to Darth Vader (1 or 0).
+Everyone knows that there are only 3 criteria that are used to get into Stanford: GPA, FRC, and Family Tree. You can get into Stanford if you have at least a 3.95 GPA (on a 4.0 scale) but if you are an FRC student, you only need a 3.3. However, if you are related to Darth Vader - all bets are off and you cannot get in! Write a function that returns true if a student would get in and a false if the student would not get in. The function will take in three parameters: GPA, FRC student, and relation to Darth Vader.
 
-[Starter Code](https://ideone.com/lfJ9ng)
+[Starter Code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/StanfordAdmission.java)
 
 
 [Next: Let's Loop de Loop! ->](Loops.md)

@@ -7,80 +7,62 @@
 
 **Objectives**: Expand on our variable knowledge
 
-**Starting Point**: [This Code](https://ideone.com/mgLXmw)
+**Starting Point**: [This Code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/MoreVariables.java)
 
 **Process**: 
 
 1. In the previous lesson we learned about variables called integers ```int``` and doubles ```double```. We mostly focused on integers, and learned about integer division and how to store numbers in variables. We're going to expand a little more on variables in this lesson.
 
-Open the starter code, it's pretty short and I bet you know roughly was it does, but I want to clarify the line with ```printf```. 
+Open the starter code, it's pretty short and I bet you know roughly was it does, but I want to clarify the line with ```println```. 
 
 ```Java
-printf("Our team number is %d", team_number);
+System.out.println("Our team number is " + teamNumber);
 ```
 
-So to start, ```printf`` is a *function* that we use to tell the computer we want to print something to the screen. We can tell its a function because its followed by parenthesis with some stuff inside of them. The stuff inside of the parenthesis are called *arguements*.
+So to start, ```println`` is a *method* that we use to tell the computer we want to print something to the screen. We can tell its a function because its followed by parenthesis with some stuff inside of them. The stuff inside of the parenthesis are called *arguements*.
 
-The arguement for our ```printf``` function is 
+The arguement for our ```println``` function is a single variable, usually a String, though it can be an int, double, or other variable type. 
 
-```"Our team number is %d", team_number```
+```"Our team number is " + teamNumber```
 
-For the most part, we're saying "hey computer, print these characters exactly," but it doesn't print the ```%d``` literally. Instead it prints the value of ```team_number```, why is that?
-```%d``` is what called a *format specifiier*. *Format specifiier* is a fancy way of saying "a blank spot that we tell the computer to fill in." Its a very similar concept to madlibs. We use these when we want to print the value of a variable. **Change the value of** ```team_number``` **and run the code.**
+For the most part, we're saying "hey computer, print these characters exactly," but it doesn't print the letters ```teamNumber``` literally. Instead it prints the value of ```teamNumber```, why is that?
+The part in quotes is called a *String literal.* This means that it is a String (a variable consisting of a string of characters), and that it is a value rather than a variable. When we put a plus sign after "Our team number is ", we're telling the computer to add something on to the end of that String. This process of sticking things together is called *concatination*. In this case, the computer is  concatinating, or adding, teamNumber to the end of the String. It is outside of the quotes so that the computer recognizes that we're not trying to output the text we're typing, but instead the value of a variable. Remember that the plus sign only works this way when at least one of the things we're adding is a String. **Change the value of** ```teamNumber``` **and run the code.**
 
-![IMAGE](../../Images/madlibs.png)
+The output of the code should have changed to print that our team number is the new value you set ```teamNumber``` to. If you haven't, change the number to a negative number... do you think it will print the negative sign?
 
-The output of the code should have changed to print that our team number is the new value you set ```team_number``` to. If you haven't, change the number to a negative number... do you think it will print the negative sign?
+What if we wanted to print multiple variables in one line? We just need more plus signs!
 
-What if we wanted to print multiple variables in one line? We would add more format specifiers!
-
-Lets modify our code so it prints "Our team number is %d and we have %d students". Lets also add a variable that will hold the number of students, I'll call mine ```num_kids``` but you can call yours whatever you'd like. Lastly, lets tell the computer that the second format specifier should print the value of ```num_kids```.
+Lets modify our code so it prints "Our team number is " + teamNumber + " and we have " + + " students". Lets also add a variable that will hold the number of students, I'll call mine ```numKids``` but you can call yours whatever you'd like. Lastly, lets tell the computer to print the number of kids between "have" and "students". Place ```numKids``` between the two plus signs that have nothing between them.
 Our main body should look like this:
 
 ```Java
-	int team_number = 1296;
-	int num_kids = 24; 
+	int teamNumber = 3314;
+	int numKids = 24; 
  
-	printf("Our team number is %d and we have %d students", team_number, num_kids);
+	System.out.println("Our team number is " + teamNumber + " and we have " + numKids + " students");
 ```
 
 Click run to test your code. Did it work?
 
-Change your printf arguement so that ```num_kids``` is before ```team_number``` (don't forget the comma!) and click run. What changed? How does the computer pick which variable to put in which spot?
+Change your println arguement so that ```numKids``` has switched places with ```teamNumber``` and click run. As you can see, the variable gets printed wherever we place it in the code.
 
 2.  Now lets try printing a _double_. After we print out our team number, lets make a double. I'm going to call mine pie and pick a value to assign to it. You can pick whatever name and value you want, just make sure its a decimal:
 
 ```Java
-	double pie = 3.1415;
+	double pie = 3;
 ```
-Using ```printf()```, lets print out our _double_:
+Using ```System.out.println()```, lets print out our _double_:
 
 ```Java
-	printf("The value of pie is %d",pie);
+	System.out.println("The value of pie is " + pie);
 ```
-Compile and run your code - did it behave how you expected? 
+Run your code - did it behave how you expected? 
 
-When we use the format specifier ```%d``` we are telling the computer we are going to print a integer. I like to think of it as a similar idea to in madlibs when the blanks have the type of word under them (adjective, verb, noun, etc). Sometimes madlibs is more fun when you ignore the type of word, but more often it just doesn't make any sense - its the same with format specifiers.
+If you didn't include a decimal after your number, you may have noticed that a .0 was added to the end of your number when you printed it. This is because doubles must always have a decimal at the end of them, so when we enter an integer like 3 as the value for the double, it converts it to a double by adding a .0 onto the end. Try doing it the other way around and set an int variable to a decimal.
 
-The format specifier for doubles is ```%lf```. Lets change fix our code so when we print the value of our double, we're using ```%lf``` instead of ```%d```. Compile and run. Does it look better?
+You probably got an error, and that's because Java has an inbuilt protection against this, to make sure that you don't accidentaly lose your decimal places when doing math.
 
-3. So, now that we're feeling good - lets open [this code](https://ideone.com/qdeNlR). Look at the format specifiers and fix the code so that it prints out the values of ingredient_1 and ingredient_2 in the right order. 
-
-4. And beyond...
-
-There are more variable types than %d and %lf, and we'll be printing them later. For now, here is a table for format specifiers:
-
-| Type   | Declaration         | Specifier | Printed  |
-|--------|---------------------|-----------|----------|
-| int    | int i = 5;          | %d        | 5        |
-| double | double i = 5.555;   | %lf       | 5.555    |
-| char   | char i = 'z';       | %c        | z        |
-| string | string i = "hello!" | %s        | "hello!" |
-
-Feel free to play around and practice printing the different types.
-
-
-5. Lets try one last exercise to cement your knowledge:
+4. Lets try one last exercise to cement your knowledge:
 
 >>Alex wants to build himself a drivetrain and has everything but the wheels, gearboxes, and encoders. He plans on buying them from VEXpro but seeing as it’s not for 1296, he'll have to pay for them, and he won't even be tax exempt! 
 >>
@@ -90,14 +72,12 @@ Feel free to play around and practice printing the different types.
 >>
 >>Example:  If Alex wants 4 versa gearboxes, 6 colson wheels, and 2 encoders - his item total will be $249.88, the tax will be $12.49, and the final price will be $262.37
 
-[Starting Code](https://ideone.com/anGEq5)
+[Starting Code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/PriceCalculation.java)
 
-Show Katie your working program and remember you can always ask for help!
-
-![IMAGE](../../Images/alex.png)
+Show me your working program and remember you can always ask for help!
 
 ----------------------------------------------------------------------------------------
 
-[Next: Let's Learn Functions! ->](Functions.md)
+[Next: Let's Learn Functions! ->](Methods.md)
 
 [Back to Main](../../README.md)

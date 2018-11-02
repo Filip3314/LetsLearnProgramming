@@ -7,7 +7,7 @@ This is your one stop shop to learn about programming FRC robotics in Java.
      - [Let’s Say Hello!](Java/nonrobot/HelloWorld.md)
      - [Let's Learn Variables!](Java/nonrobot/Variables.md)
      - [Let's Learn More Variables!](Java/nonrobot/MoreVariables.md)
-     - [Let's Learn Functions!](Java/nonrobot/Functions.md)
+     - [Let's Learn Methods!](Java/nonrobot/Methods.md)
      - [Let's Learn unConditionally!](Java/nonrobot/Conditionals.md)
      - [Let's Loop de Loop!](Java/nonrobot/Loops.md)
      - [Let's Make Objects!](Java/nonrobot/Objects.md)

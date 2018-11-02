@@ -1,6 +1,6 @@
 ## Let's Learn Variables!
 
-[<- Previously: Let's Say Hello!](HelloWorld.md)
+[<- Previously: Let's Say Hello!](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/HelloWorld.java)
 
 ----------------------------------------------------------------------------------------
 
@@ -53,9 +53,9 @@ ____ [starting seconds] is ____ [Hours] hours, ____ [Minutes] minutes, and ____ 
 
 If you're a little confused, ask for help!
 
-So now that we broke down how to solve that problem generically, now lets try to code it! I gave you some [starter code](https://ideone.com/fork/1v4mFV).
+So now that we broke down how to solve that problem generically, now lets try to code it! I gave you some [starter code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Variables.java).
 
-In this code, we see the header section like last time, as well as the main and the main body. However, in this code we see something new:
+In this code, we see the class declaration like last time, as well as the main and the main method. However, in this code we see something new:
 
 ``` Java
 int seconds;
@@ -91,11 +91,11 @@ If you thought a and b are not equal or that they both equal 4 - sorry, you didn
 
 ```a``` equals 6 because assigning values *always* goes from the right to the left. The variable on the left of the equal sign is the variable changing its value. Given this, if you try to write ```6 = a;``` the computer will get confused and be mad at you - you cannot reassign the value of 6. 6 is always 6.
 
-Lets play around with some math in coding! Open this [math code](https://ideone.com/f1QNhi) and run it. See what occurs! Try changing numbers, can you figure out what is happening?
+Lets play around with some math in coding! Open this [math code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Math.java) and run it. See what occurs! Try changing numbers, can you figure out what is happening?
 
-Try to find three differences (in both the printed lines and the code) between the integers and the doubles. Once you think you have them, tell Katie.
+Try to find three differences (in both the printed lines and the code) between the integers and the doubles. Once you think you have them, tell me.
 
-One thing you may have noticed is that devision behave weird with integers - why would 4 devided by 15 return 0? Why is 15 devided by 4 only 3? The reason is because we are doing *integer math*. Integer math is very similar to our third grade math class. Remember when you first learned about division, we had these things called remainders? 
+One thing you may have noticed is that devision behave weird with integers - why would 4 divided by 15 return 0? Why is 15 devided by 4 only 3? The reason is because we are doing *integer math*. Integer math is very similar to our third grade math class. Remember when you first learned about division, we had these things called remainders? 
 
 ![IMAGE](https://dj1hlxw0wr920.cloudfront.net/userfiles/wyzfiles/b410fcc6-7a7b-45a0-81b9-354423866db9.gif)
 
@@ -125,7 +125,7 @@ Alright.
 
 - 1 / 10 = 0, because 10 goes into 1 no times (0). Integer division - no one cares about the remainder here.
 - 5 % 3 = 2. Here we only care about the remainder. 3 goes into 5 one time with a remainder of 2.
-- 2 / 3 + 4 /3 = 1 - When I was first learning this stuff, I messed up this question on a test. Math class had taught me to my core that this eqauls 2. But I was wrong. It equals 1. Why? Because integer division.
+- 2 / 3 + 4 /3 = 1 - You might think this equals 2, but you would be wrong. Why? Because integer division.
 - (7 % 4) / 2 = 1 - this was more about combining concepts. 7 % 4 = 3 and 3 / 2 = 1. 
 
 So, looking back at our math-ish, how can we convert it to code?
@@ -139,7 +139,7 @@ So, looking back at our math-ish, how can we convert it to code?
 ```
 I added line numbers at the beginning of each line, so I will refer to the math-ish by line numbers.
 
-In the starter code, we already have line 1 and line 6 written. Line 1 is written as ```seconds = 3661```. We're using the variable ```seconds``` to hold the Starting Seconds. Line 6 is written using the ```printf``` function. We'll put our answers in the variables ```hour```, ```min```, and ```sec``` and the ```printf``` line will print out their values. So, we only need to write lines 2 through 5.
+In the starter code, we already have line 1 and line 6 written. Line 1 is written as ```seconds = 3661```. We're using the variable ```seconds``` to hold the Starting Seconds. Line 6 is written using the ```println``` function. We'll put our answers in the variables ```hour```, ```min```, and ```sec``` and the ```println``` line will print out their values. So, we only need to write lines 2 through 5.
 
 The first thing is lets subsitute our math-ish names for the variables names:
 ```
@@ -150,12 +150,12 @@ min = The remainder of (min / 60);
 ```
 Now we need to get rid of all those words! While we understand english, the computer definately does not. Looking at our math code from earlier, how do we do division that ignores the remainer? How do we get the remainder? 
 
-Update the [starter code](https://ideone.com/fork/1v4mFV) with your converted math-ish and click "run"/"ideone it". Did it work? Ask for help to solve any problems. 
+Update the your Variables.java file with your converted math-ish and click "Run". Did it work? Ask for help to solve any problems. 
 
 Once you have it working, change the value of ```seconds``` and see if it still gets the correct answer!
 
 ----------------------------------------------------------------------------------------
 
-[Next: Let's Learn More Variables! ->](LLVars2.md)
+[Next: Let's Learn More Variables! ->](MoreVariables.md)
 
 [Back to Main](../../README.md)
