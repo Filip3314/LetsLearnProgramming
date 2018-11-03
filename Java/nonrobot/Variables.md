@@ -1,6 +1,6 @@
 ## Let's Learn Variables!
 
-[<- Previously: Let's Say Hello!](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/HelloWorld.java)
+[<- Previously: Let's Say Hello!](HelloWorld.md)
 
 ----------------------------------------------------------------------------------------
 
@@ -30,9 +30,9 @@ There are multiple ways we could start - maybe we convert the seconds to minutes
 
 For the sake of this tutorial, lets use the method that converts from seconds to minutes to hours.
 
-So, first we'll convert seconds to miutes by deviding the seconds by 60. For 3661 seconds, the division is 61 minutes with 1 second left over.
+So, first we'll convert seconds to minutes by dividing the seconds by 60. For 3661 seconds, the division is 61 minutes with 1 second left over.
 
-Next, we'll need to devide minutes by 60, so that we can get hours. 61 minutes is 1 hour with 1 minute left over.
+Next, we'll need to divide minutes by 60, so that we can get hours. 61 minutes is 1 hour with 1 minute left over.
 
 At this point, we know the answer: 3661 seconds = 1 hour, 1 minute, and 1 second.
 
@@ -55,7 +55,7 @@ If you're a little confused, ask for help!
 
 So now that we broke down how to solve that problem generically, now lets try to code it! I gave you some [starter code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/Variables.java).
 
-In this code, we see the class declaration like last time, as well as the main and the main method. However, in this code we see something new:
+In this code, we see the class declaration like last time, as well as the main method. However, in this code we see something new:
 
 ``` Java
 int seconds;
@@ -95,13 +95,13 @@ Lets play around with some math in coding! Open this [math code](https://raw.git
 
 Try to find three differences (in both the printed lines and the code) between the integers and the doubles. Once you think you have them, tell me.
 
-One thing you may have noticed is that devision behave weird with integers - why would 4 divided by 15 return 0? Why is 15 devided by 4 only 3? The reason is because we are doing *integer math*. Integer math is very similar to our third grade math class. Remember when you first learned about division, we had these things called remainders? 
+One thing you may have noticed is that division behave weird with integers - why would 4 divided by 15 return 0? Why is 15 divided by 4 only 3? The reason is because we are doing *integer math*. Integer math is very similar to our third grade math class. Remember when you first learned about division, we had these things called remainders? 
 
 ![IMAGE](https://dj1hlxw0wr920.cloudfront.net/userfiles/wyzfiles/b410fcc6-7a7b-45a0-81b9-354423866db9.gif)
 
 With integer division, we don't care about the remainder, we only care about the number before the remainer. So with 128/5, we only care about the 25 and throw out/ignore the remainder 3. By the same logic, 1/10 will be 0 with integer division - The answer is 0 remainder 10. 
 
-But what if we *wanted* the remainder? That is where the percent sign (%) comes in. We call this operation "modulous" or *mod*. If I wanted the remainder of 10/4 I would write ```c = 10 % 4;``` or say "C equals 10 mod 4". After that line of code, what would C equal? That's right, it would equal 2. 
+But what if we *wanted* the remainder? That is where the percent sign (%) comes in. We call this operation "modulous" or *mod*. If I wanted the remainder of 9/4 I would write ```c = 9 % 4;``` or say "C equals 9 mod 4". After that line of code, what would C equal? That's right, it would equal 1. 
 
 To check that we're solid on this, write down the answers to the following equations (following integer math rules):
 - 1 / 10

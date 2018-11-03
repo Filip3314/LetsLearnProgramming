@@ -13,11 +13,6 @@ This is your one stop shop to learn about programming FRC robotics in Java.
      - [Let's Make Objects!](Java/nonrobot/Objects.md)
 
  - **Robots**
-     - [Let's Learn Tank Drive!](Java/robot/Tank.md)
-     - [Let's Climb!](Java/robot/Climb.md)
-     - [Let's Get Some Gears!](Java/robot/Gears.md)
-     - [Let's Learn PID!](Java/robot/PID.md)
-     - [Let's Reorganize!](Java/robot/Reorg.md)
 
  - **Git**
  

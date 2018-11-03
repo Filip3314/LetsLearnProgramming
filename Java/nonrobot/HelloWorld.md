@@ -7,7 +7,7 @@
 **Process**: 
 
 1. Create a folder for the code we'll be writing. Title it anything you want.
-2. In VSCode, click File>Open Folder. Then select the folder that you just created.
+2. In VSCode, click File>Add Folder to Workspace... Then select the folder that you just created.
 3. Create a new file in VSCode and name it HelloWorld.java.
 4. Copy paste the code from the link into your file.
 5. First we have:
@@ -16,9 +16,9 @@
     This is the class declaration. A class is a type of Java file, and it's the main one we'll be using. In addition to the word "class" and the class name "HelloWorld", there can be all sorts of other words in the class declaration like "public" and "extends" that we'll learn about later. Right now, we're just concerned with the class name. Note that the class name always has to be the same as the file name, otherwise your code won't work.
 
 6. Next we have:
-    ``` public static void main(String[] args) ```
+    ``` public static void main(String[] args) { } ```
 	    
-    This is the starting square for the program. Just like monopoly always starts at “GO”, the program always starts at main.  After main we see curly open and close brackets “{ }” on different lines. Between these brackets is the **method body**. This is because they are in the brackets that come after the name “main”. The other words, like "public", "static", and "void", aren't important right now.
+    This is the starting square for the program. Just like Monopoly always starts at “GO”, the program always starts at main.  After main we see curly open and close brackets “{ }” on different lines. Between these brackets is the **method body**. The other words "public", "static", and "void", aren't important right now.
 
 7. Inside the **main method**, we’re going to write the following line:
 

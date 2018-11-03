@@ -100,8 +100,8 @@ println(i + " goes into " +  j + " wholly " + count + " times");
 ```
 Try [running that code](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/WhileLoops.java). Change the numbers.
 
-Another fun thing we can do is write the "99 bottles of coke on wall" song:
-[99 Bottles of Coke on the Wall](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/BottlesOfBeer.java).
+Another fun thing we can do is write the "99 bottles of beer on wall" song:
+[99 Bottles of Beer on the Wall](https://raw.githubusercontent.com/Filip3314/LetsLearnProgramming/master/StartingPoints/BottlesOfBeer.java).
 
 I know what you're thinking, _"Wow, that was so much fun..."_ and I have to agree - I have excellent taste in fun. Speaking of fun, lets write a while loop!
 

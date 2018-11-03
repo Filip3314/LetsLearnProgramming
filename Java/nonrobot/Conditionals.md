@@ -1,6 +1,6 @@
 ## Let's Learn unConditionally!
 
-[<- Previously:  Let's Learn Functions!](Functions.md)
+[<- Previously:  Let's Learn Functions!](Methods.md)
 
 ----------------------------------------------------------------------------------------
 

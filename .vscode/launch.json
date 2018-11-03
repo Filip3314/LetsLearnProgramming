@@ -1,6 +1,15 @@
 {
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BottlesOfBeer",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "BottlesOfBeer",
+            "args": ""
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Conditionals1",
