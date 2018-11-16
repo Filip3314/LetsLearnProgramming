@@ -52,7 +52,7 @@ To practice, try changing the code to count to ten by twos.
 
 ------------------------------------------------------------------------------------------
 
-Now, Andy, DOm, and Jared are playing the game "3, 5." The rules of the game are as follows:
+Now, Andy, Dom, and Jared are playing the game "3, 5." The rules of the game are as follows:
 * Players take turns saying a number, increasing by one each time
 * If a number is divisible by either 5 or 3, the player claps instead of saying a number
 * If a number is divisible by both 5 and 3, the player claps twice.

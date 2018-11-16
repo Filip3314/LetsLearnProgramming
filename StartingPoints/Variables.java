@@ -11,6 +11,6 @@ public class Variables {
 
         //YOUR CODE HERE
         
-        println(hour + " hours " + min + " minutes and " + sec + " seconds");
+        System.out.println(hour + " hours " + min + " minutes and " + sec + " seconds");
     }
 }

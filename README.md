@@ -10,6 +10,7 @@ This is your one stop shop to learn about programming FRC robotics in Java.
      - [Let's Learn Methods!](Java/nonrobot/Methods.md)
      - [Let's Learn unConditionally!](Java/nonrobot/Conditionals.md)
      - [Let's Loop de Loop!](Java/nonrobot/Loops.md)
+     - [Let's Learn Arrays!](Java/nonrobot/Arrays.md)
      - [Let's Make Objects!](Java/nonrobot/Objects.md)
 
  - **Robots**

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class MoreVariables {
     public static void main(String[] args) {
         int teamNumber = 3314;
